@@ -1,0 +1,8 @@
+To run server use this command:
+nohup node server.js > nohup.out &
+
+To quit process:
+* Find PID with ps aux - look for node server.js
+* Quit process with command: kill -9 PID
+
+Tutorial: https://scotch.io/tutorials/easy-node-authentication-setup-and-local
